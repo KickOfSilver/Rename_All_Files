@@ -215,6 +215,7 @@ def manager_move_log(path):
 
         try:
             os.rename(data_log, path_move)  # move o log para main pasta
+            print("Finishi")
 
         except:
             os.replace(data_log, path_move)  # move o log para main pasta
